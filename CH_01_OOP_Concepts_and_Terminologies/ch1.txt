@@ -1,0 +1,46 @@
+// chapter 1 examples
+
+// VID01 : Intro to OOP
+
+main function call all
+and handle communication
+
+// Problems
+Transformation
+Reusability
+Maintainability
+
+// how oop solve them
+//// transformation
+///// objects instead of functions
+// object is a set of attributes and functions
+// they comm using their functions
+
+// features of oop
+bottom-up approach
+programs organized around objects grouped in classes
+focus on data with methods to operate upon object's data
+interaction bet. objects using functions
+reusability
+// by encapsulation, polymorphism, inheritance, abstraction
+
+// VID3: Inheritance
+
+make a base class for common attributes and functions
+then inherit and add the specific new attributes and functions
+parent child relation
+person -> student/employee -> driver/MathStudent -> ...
+
+// VID4: Polymorphism
+
+// functions with same name
+//// but different parameters & body
+// Abs(int) Abs(long) Abs(float)
+
+// Function Signature
+name
+no. of parameters
+type of parameters
+order of them
+->return of function is not a part of its signature
+

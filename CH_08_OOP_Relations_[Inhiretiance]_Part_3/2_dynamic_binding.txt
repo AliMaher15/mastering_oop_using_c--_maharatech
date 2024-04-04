@@ -1,0 +1,27 @@
+Base: +virtual m1() +m2()
++Derived: +virtual m1() +m2()
++Second: +m1() +m2()
+
+Base *ptr;
+Base o1;
+Derived o2;
+Second o3;
+
+//Case 1:
+ptr = &o1; // Compiler: Base, Runtime: Base (Static Binding)
+
+//Case 2:
+ptr = &o2; 
+ptr -> m1(); // Compiler: Base, Runtime: because of virtual, Derived -- Late Binding
+ptr -> m2(); // Compiler: Base, Runtime: Base
+
+//Case 3:      // Compiler       // Runtime
+ptr = &o3;
+ptr -> m1();   //Base              Second -- Late Binding (if second doesn't have it, will run Derived m1())
+ptr -> m2();   //Base              Base -- Static Binding
+
+//Case 4:      // Compiler       // Runtime
+Derived *ptr
+ptr = &o3
+ptr -> m1();   //Derived         Second -- Late Binding
+ptr -> m2();   //Derived         Derived -- Static Binding

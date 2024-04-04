@@ -1,0 +1,31 @@
+// VID01: Friend function
+
+
+// Friend Function
+/// is a stand alone or another class member function
+/// is a nonmember function that can deal with private
+//// and public members in the class
+/// violate the encapsulation concept
+/// its prototype should be declared inside class
+/// one function can be friend for many classes
+
+// Can a class be friend for another class? How?
+
+// VID02: pass objects to functions
+
+
+
+// VID03: Dynamic Area Problems
+
+
+// problem in bitwise copying is the address that the 
+// copied object pointer points at will be the same
+// any changes will affect the s object in main
+
+// how to solve??
+
+// VID04: Dynamic Area Problem Solutions
+
+
+
+

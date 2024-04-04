@@ -1,0 +1,47 @@
+#include <iostream>
+#include <math.h>
+#include <conio.h>
+// default arguments
+// function overloading
+// constructor and destructor
+// static members
+
+// VID1: Default Arguments
+
+// 90% attributes private
+// 70% functions public
+
+
+// rules:
+/// put less used argument at the right side of the function header
+/// if one argument has default value, all of the next argument must have also default values
+
+
+// VID02: Polymorphism, Function overloading
+
+// they are many functions in one class with the same name
+// but different signatures
+
+
+// VID03: Constructor and Deconstructor
+
+// Constructor:
+/// a public function with the same name as class
+/// no arguments, works after allocation of object in memory
+/// put default values in attributes
+/// no return value, even no void
+/// user can't call it
+/// call only when creating the objects
+/// can be overloaded
+
+// Destructor
+/// called when object is destroyed from memory
+/// has the same name of class with prefix ~
+/// doesnt take any parameters
+/// no return value
+/// user can't call it
+
+
+// VID04: this pointer
+
+/// a pointer to the caller object "this"

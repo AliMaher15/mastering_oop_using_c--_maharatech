@@ -1,0 +1,41 @@
+// Inheritance part 1
+
+child can't access parent's private attributes
+
+creating object from child = creating object from base 
+                             then object from child
+
+creating object from child = constructor of base is calling 
+                             then constructor of child called
+
+destruct child first then base
+
+Private variables in base class = can't be accessed from child
+
+// inheritance and composition:
+Manager: Manager() : Employee() b1(3), b2(4,3) {}
+
+Manager class inherit from Employee class
+class manager has composition relation with b1 and b2
+
+constructor order: Employee -> b1 -> b2 -> Manager
+destructor order : Manager -> b2 -> b2 -> Employee
+
+// VID03: Access Specifier
+
+Protected specifier, for child only
+// presented by hash # icon for UI
+
+// VIDO04: Polymorphism: Function Overriding
+
+happens in inheritance tree when same signature function occurs
+
+Function Overriding:
+if function takes a Base type, the Base or Derived object can be sent to it
+if function takes a Derived type, only Derived object can be sent to it
+
+pointer of parent can point to array of child but it takes only the parent's parts 
+
+// VID05: Multi level inheritance
+
+add new level to tree

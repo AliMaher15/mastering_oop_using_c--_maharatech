@@ -1,0 +1,24 @@
+// Static Members
+
+// we can define class members statically using static keyword
+
+// a static member is shared by all objects of the class
+
+// whe we declare a member of a class as static
+// it means no matter how many objects of the class are created
+// there is only one copy of the static member
+
+// Static Attributes
+/// shared attributes among all objects from this class
+/// its lifetime is the application lifetime
+/// can be accessed from class name or any object (if public)
+/// has a constant value
+/// can be private or public
+/// can be used in all class functions
+
+// example: add StackNo in Stack class
+
+// Static Functions
+/// deal only with static attributes
+/// this pointer is not sent to it
+/// call by the class name (recommended) or any object

@@ -1,0 +1,46 @@
+#include <iostream>
+#include <math.h>
+#include <conio.h>
+
+// Inheritance part 2
+
+protected and private inheritance
+
+// VID01: Inheritance types
+
+Derived class name : <access specifier> base class name
+
+// 1. Public
+ all keep their accessability 
+
+// 2. Protected
+all inherited are now protected
+
+// 3. Private
+all inherited are now private
+
+all new languages are public inheritance only
+
+// VID02: Inheritance types Examples
+// triangle, rectangle, square, circle
+
+
+// VID03: multiple inheritance
+
+// one class has 2 parents
+// not recommended
+/*
+class Derived: public Base1, public Base2
+{
+    int c;
+public:
+    Derived (int x, int y, int z) : Base1(x), Base2(y)
+    {
+        c = z;
+    }
+    int product () {
+        return a*b*c;
+    }
+};*/
+
+// a problem when base1 and base2 have variables of same names
